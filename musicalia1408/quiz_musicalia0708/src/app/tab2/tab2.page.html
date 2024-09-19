@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Musicalia
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="my-custom-background" [fullscreen]="true">
+</ion-content>
+  <!-- Conteúdo da sua página -->
+<!-- Mostra a pergunta atual se ainda houver perguntas no quiz -->
+<ion-card class="card_1" *ngIf=" perguntaAtual < quiz.length">
+  <ion-card-header>
+    <!-- Mostra a pergunta atual -->
+    <ion-card-title class="ringo">{{ quiz[perguntaAtual].question }}</ion-card-title>
+  </ion-card-header>
+  
+
+
+  <!-- Lista as opções para a pergunta atual -->
+  <ion-list class="listaPerguntas"> 
+    <ion-item class="botoes" *ngFor="let option of quiz[perguntaAtual].options; index as i">
+      <!-- Quando uma opção é clicada, chama a função 'answer' com o índice da opção -->
+      <ion-button class="resposta" expand="full" (click)="answer(i)">{{ option }}</ion-button>
+    </ion-item>
+  </ion-list>
+  <img class="pato2Img" src="../../assets/icon/pato2.png" /> 
+  <img class="pato3Img" src="../../assets/icon/pato3.png" /> 
+</ion-card>
+
+<!-- Mostra o feedback após a resposta -->
+<ion-card class="mostrarQuestion" *ngIf="showAnswer">
+  <ion-card-content>
+    {{ correct ? quiz[perguntaAtual].feedbackCorrect : quiz[perguntaAtual].feedbackIncorrect }}
+  </ion-card-content>
+  <ion-button class="proxima'" expand="full" (click)="nextQuestion()">Próxima Pergunta</ion-button>
+</ion-card>
+
+<!-- Mostra a pontuação final quando todas as perguntas foram respondidas -->
+<ion-card class="card2" *ngIf=" perguntaAtual >= quiz.length">
+  <ion-card-header>
+    <ion-card-title>Quiz Concluído!</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <p>Sua pontuação é {{ score }} de {{ quiz.length }}</p>
+  </ion-card-content>
+</ion-card>
+    

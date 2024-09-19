@@ -1,0 +1,69 @@
+.my-custom-background {
+    --ion-background-color: #e6e6e6; /* Substitua pela cor desejada */
+  }
+.card_1{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 35px;
+    height: 600px;
+    width: 360px;
+
+}
+.resposta{
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    --background: #0d99ff;
+    --background-hover: #0d99ff;
+    --background-activated: #0d99ff;
+    --background-focused: #0d99ff;
+    //usar os tracinhos parea o comando ser ativado, o porque nao sei, mas funciona 
+
+
+}
+.my-custom-background {
+    --ion-background-color: #e6e6e6; /* Substitua pela cor desejada */
+  }
+.mostrarQuestion{
+    position: absolute;
+    margin-top: 540px;
+    height: 155px;
+    width: 320px;
+    margin-left: 45px;
+}
+.card2{
+    position:   absolute;
+    margin-top: 100px;
+    width: 380px;
+    height: 200px;   
+    margin-bottom: 20px; /* Altere o valor conforme necessário */
+}
+.botoes{
+    margin-bottom: 25px; /* Altere o valor conforme necessário */
+}
+.listaPerguntas{
+
+    margin-top:65px ;
+}
+.pato2Img{
+    position: absolute;
+    height: 100px;
+    margin-left: 250px;
+    margin-top: -60px;
+
+}
+.pato3Img{
+    position: absolute;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: -358px;
+    transform: rotate(-10deg);
+}
+.proxima{
+    --background: #0d99ff;
+    --background-hover: #0d99ff;
+    --background-activated: #0d99ff;
+    --background-focused: #0d99ff;
+
+    
+}
