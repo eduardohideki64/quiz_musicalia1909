@@ -1,48 +1,63 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Musicalia
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-<ion-content class="my-custom-background" [fullscreen]="true">
-</ion-content>
-  <!-- Conteúdo da sua página -->
-<!-- Mostra a pergunta atual se ainda houver perguntas no quiz -->
-<ion-card class="card_1" *ngIf=" perguntaAtual < quiz.length">
-  <ion-card-header>
-    <!-- Mostra a pergunta atual -->
-    <ion-card-title class="ringo">{{ quiz[perguntaAtual].question }}</ion-card-title>
-  </ion-card-header>
-  
 
 
-  <!-- Lista as opções para a pergunta atual -->
-  <ion-list class="listaPerguntas"> 
-    <ion-item class="botoes" *ngFor="let option of quiz[perguntaAtual].options; index as i">
-      <!-- Quando uma opção é clicada, chama a função 'answer' com o índice da opção -->
-      <ion-button class="resposta" expand="full" (click)="answer(i)">{{ option }}</ion-button>
-    </ion-item>
-  </ion-list>
-  <img class="pato2Img" src="../../assets/icon/pato2.png" /> 
-  <img class="pato3Img" src="../../assets/icon/pato3.png" /> 
-</ion-card>
+  <ion-content class="my-custom-background" [fullscreen]="true">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <ion-header collapse="condense">
+    </ion-header>
+      <div class="colored-div">
+          <h1 class="musicalia">Musicalia</h1>
+          <h3 class="musicalia2">O app do músico!</h3>
+          <img class="pato22Img" src="../../assets/icon/pato2.png" /> 
+      </div>
 
-<!-- Mostra o feedback após a resposta -->
-<ion-card class="mostrarQuestion" *ngIf="showAnswer">
-  <ion-card-content>
-    {{ correct ? quiz[perguntaAtual].feedbackCorrect : quiz[perguntaAtual].feedbackIncorrect }}
-  </ion-card-content>
-  <ion-button class="proxima'" expand="full" (click)="nextQuestion()">Próxima Pergunta</ion-button>
-</ion-card>
 
-<!-- Mostra a pontuação final quando todas as perguntas foram respondidas -->
-<ion-card class="card2" *ngIf=" perguntaAtual >= quiz.length">
-  <ion-card-header>
-    <ion-card-title>Quiz Concluído!</ion-card-title>
-  </ion-card-header>
-  <ion-card-content>
-    <p>Sua pontuação é {{ score }} de {{ quiz.length }}</p>
-  </ion-card-content>
-</ion-card>
+
+              <!-- Conteúdo da sua página -->
+    <!-- Mostra a pergunta atual se ainda houver perguntas no quiz -->
+    <ion-card class="card_1" *ngIf=" perguntaAtual < quiz.length">
+      <img class="solzinho"  [src]="quiz[perguntaAtual].image" alt="../../assets/icon/solmaior.jpg" *ngIf="quiz[perguntaAtual].image" />
+      <ion-card-header>
+        <!-- Mostra a pergunta atual -->
+        <ion-card-title class="ringo">{{ quiz[perguntaAtual].question }}</ion-card-title>
+      </ion-card-header>
+      <!-- Lista as opções para a pergunta atual -->
+      <ion-list class="listaPerguntas">
+        <ion-item class="botoes" *ngFor="let option of quiz[perguntaAtual].options; index as i">
+          <!-- Quando uma opção é clicada, chama a função 'answer' com o índice da opção -->
+          <ion-button class="resposta" expand="full" (click)="answer(i)">{{ option }}</ion-button>
+        </ion-item>
+      </ion-list>
     
+    </ion-card>
+
+
+    <!-- Mostra o feedback após a resposta -->
+    <ion-card class="mostrarQuestion" *ngIf="showAnswer">
+      <ion-card-content>
+        {{ correct ? quiz[perguntaAtual].feedbackCorrect : quiz[perguntaAtual].feedbackIncorrect }}
+        
+      </ion-card-content>
+      <ion-button class="proxima'" expand="full" (click)="nextQuestion()">Próxima Pergunta</ion-button>
+    </ion-card>
+
+
+    <!-- Mostra a pontuação final quando todas as perguntas foram respondidas -->
+    <ion-card class="card2" *ngIf=" perguntaAtual >= quiz.length">
+      <ion-card-header>
+        <ion-card-title>Quiz Concluído!</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>Sua pontuação é {{ score }} de {{ quiz.length }}</p> 
+      </ion-card-content>
+    </ion-card>
+      
+    <button class="voltar"  routerLink="../"> Voltar </button> 
+    <h1 class="avisoo">Ao sair do teste, seu progresso ficará salvo. <br> Caso queira recomeçar, basta abrir e fechar o app!</h1>
+
+
+
+  
+  </ion-content>

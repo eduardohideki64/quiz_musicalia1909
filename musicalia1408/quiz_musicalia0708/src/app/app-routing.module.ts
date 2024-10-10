@@ -25,6 +25,22 @@ const routes: Routes = [
   {
     path: 'tab8',
     loadChildren: () => import('./tab8/tab8.module').then( m => m.Tab8PageModule)
+  },
+  {
+    path: 'introacor',
+    loadChildren: () => import('./introacor/introacor.module').then( m => m.IntroacorPageModule)
+  },
+  {
+    path: 'introprog',
+    loadChildren: () => import('./introprog/introprog.module').then( m => m.IntroprogPageModule)
+  },
+  {
+    path: 'intronotas',
+    loadChildren: () => import('./intronotas/intronotas.module').then( m => m.IntronotasPageModule)
+  },
+  {
+    path: 'intromenor',
+    loadChildren: () => import('./intromenor/intromenor.module').then( m => m.IntromenorPageModule)
   }
 ];
 @NgModule({
