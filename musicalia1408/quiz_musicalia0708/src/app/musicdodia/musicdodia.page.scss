@@ -1,0 +1,248 @@
+.my-custom-background {
+    --ion-background-color: #e6e6e6; /* Substitua pela cor desejada */
+  }
+  .pato1Img {
+    position: absolute;
+    height: 20%; /* Aproximadamente 160px baseado em uma altura padrão de 800px */
+    left: 15%;   /* Aproximadamente 110px baseado em uma largura padrão de 700px */
+    top: 18.75%; /* Aproximadamente 150px baseado em uma altura padrão de 800px */
+}
+.recep {
+    font-size: 150%; /* Aproximadamente 25px baseado em uma fonte padrão de 800px */
+    top: 16.25%;  /* Aproximadamente 130px baseado em uma altura padrão de 800px */
+    left: 6%;     /* Aproximadamente 60px baseado em uma largura padrão de 1000px */
+    color: #3f5795;
+    text-align: center;
+
+}
+.textinho{
+    margin-top: 5%;
+    font-size: 120%;
+    color: #3f5795;
+    text-align: center;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+}
+
+.textinho2{
+    position: absolute;
+    margin-top: 525px;
+    font-size: 16px;
+    margin-left: 60px;
+    color: #3f5795;
+}
+
+
+.colored-div {
+    background-color: #3f5795; /* Define a cor de fundo */
+    color: white;              /* Define a cor do texto para garantir contraste */
+    padding: 20px;            /* Adiciona espaçamento interno */
+    text-align: center;       /* Centraliza o texto dentro da div */
+    height: 90px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+.logo{
+    position: absolute;
+    height: 135px;
+    margin-top: -50px;
+}
+.musicalia{
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    margin-top: 5px;
+    place-items: center; /* Centraliza tanto horizontal quanto verticalmente */
+    
+}
+.musicalia2{
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    margin-top: -5px;
+    font-size: 14px;
+    place-items: center; /* Centraliza tanto horizontal quanto verticalmente */
+}
+.pato22Img{
+    position: absolute;
+    height: 80px;
+    margin-left: -160px;
+    margin-top: -75px;
+}
+.butoes{
+    position: absolute;
+
+    margin-left: -3%;
+  
+}
+
+.anunnn{
+    height: 200%;
+}
+.anun{
+    position: absolute;
+    width: 75%;
+    margin-top: 15%;
+    margin-left: 40px;
+}
+
+.ab{
+    margin-left: 20px;
+}
+
+.rectangular-button {
+    --width: 80%; /* Ajuste a largura como porcentagem da largura do contêiner pai */
+    --height: 9%; /* Ajuste a altura como porcentagem da altura do contêiner pai */
+    --background: #3f5795; /* Cor de fundo */
+    --color: #ffffff; /* Cor do texto */
+    --border-radius: 3px; /* Bordas retangulares (sem arredondamento) */
+    --padding-start: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-end: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-top: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-bottom: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --background:  #3f5795; /* Cor de fundo */
+    --color: #ffffff; /* Cor do texto */
+    --border-radius: 12px; /* Bordas arredondadas, opcional */
+    //usar os tracinhos parea o comando ser ativado, o porque nao sei, mas funciona 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    width: var(--width); /* Largura do botão */
+    height: var(--height); /* Altura do botão */
+    background: var(--background); /* Cor de fundo */
+    color: var(--color); /* Cor do texto */
+    border-radius: var(--border-radius); /* Bordas arredondadas */
+    font-size: 5vw; /* Tamanho da fonte em relação à largura da viewport */
+    text-align: center; /* Centraliza o texto */
+    line-height: 1.5; /* Ajusta o espaçamento do texto */
+    margin-left: 10%;
+
+  
+}
+
+.rectangular-button2 {
+    --width: 80%; /* Ajuste a largura como porcentagem da largura do contêiner pai */
+    --height: 9%; /* Ajuste a altura como porcentagem da altura do contêiner pai */
+    --background: #3f5795; /* Cor de fundo */
+    --color: #ffffff; /* Cor do texto */
+    --border-radius: 3px; /* Bordas retangulares (sem arredondamento) */
+    --padding-start: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-end: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-top: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-bottom: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --background:  #3f5795; /* Cor de fundo */
+    --color: #ffffff; /* Cor do texto */
+    --border-radius: 12px; /* Bordas arredondadas, opcional */
+    position: relative;
+    width: 100%; /* Ajuste conforme necessário */
+    height: 100vh; /* Ajusta a altura para 100% da altura da viewport */
+    display: flex;
+    justify-content: center; /* Centraliza o botão horizontalmente */
+    align-items: center; /* Centraliza o botão verticalmente */
+    margin-top: 6%;
+
+   
+    //usar os tracinhos parea o comando ser ativado, o porque nao sei, mas funciona 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    width: var(--width); /* Largura do botão */
+    height: var(--height); /* Altura do botão */
+    background: var(--background); /* Cor de fundo */
+    color: var(--color); /* Cor do texto */
+    border-radius: var(--border-radius); /* Bordas arredondadas */
+    font-size: 5vw; /* Tamanho da fonte em relação à largura da viewport */
+    text-align: center; /* Centraliza o texto */
+    line-height: 1.5; /* Ajusta o espaçamento do texto */
+    margin-left: 10%;
+  
+}
+
+
+.rectangular-button3 {
+    --width: 80%; /* Ajuste a largura como porcentagem da largura do contêiner pai */
+    --height: 9%; /* Ajuste a altura como porcentagem da altura do contêiner pai */
+    --background: #3f5795; /* Cor de fundo */
+    --color: #ffffff; /* Cor do texto */
+    --border-radius: 3px; /* Bordas retangulares (sem arredondamento) */
+    --padding-start: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-end: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-top: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-bottom: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --background:  #3f5795; /* Cor de fundo */
+    --color: #ffffff; /* Cor do texto */
+    --border-radius: 12px; /* Bordas arredondadas, opcional */
+   
+    //usar os tracinhos parea o comando ser ativado, o porque nao sei, mas funciona 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    width: var(--width); /* Largura do botão */
+    height: var(--height); /* Altura do botão */
+    background: var(--background); /* Cor de fundo */
+    color: var(--color); /* Cor do texto */
+    border-radius: var(--border-radius); /* Bordas arredondadas */
+    font-size: 5vw; /* Tamanho da fonte em relação à largura da viewport */
+    text-align: center; /* Centraliza o texto */
+    line-height: 1.5; /* Ajusta o espaçamento do texto */
+    margin-left: 10%;
+    margin-top: 6%;
+}
+
+
+.rectangular-button4 {
+    --width: 80%; /* Ajuste a largura como porcentagem da largura do contêiner pai */
+    --height: 9%; /* Ajuste a altura como porcentagem da altura do contêiner pai */
+    --background: #3f5795; /* Cor de fundo */
+    --color: #ffffff; /* Cor do texto */
+    --border-radius: 3px; /* Bordas retangulares (sem arredondamento) */
+    --padding-start: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-end: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-top: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-bottom: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --background:  #3f5795; /* Cor de fundo */
+    --color: #ffffff; /* Cor do texto */
+    --border-radius: 12px; /* Bordas arredondadas, opcional */
+   
+    //usar os tracinhos parea o comando ser ativado, o porque nao sei, mas funciona 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    width: var(--width); /* Largura do botão */
+    height: var(--height); /* Altura do botão */
+    background: var(--background); /* Cor de fundo */
+    color: var(--color); /* Cor do texto */
+    border-radius: var(--border-radius); /* Bordas arredondadas */
+    font-size: 5vw; /* Tamanho da fonte em relação à largura da viewport */
+    text-align: center; /* Centraliza o texto */
+    line-height: 1.5; /* Ajusta o espaçamento do texto */
+    margin-left: 10%;
+    margin-top: 6%;
+  
+}
+
+.rectangular-button5 {
+    --width: 80%; /* Ajuste a largura como porcentagem da largura do contêiner pai */
+    --height: 9%; /* Ajuste a altura como porcentagem da altura do contêiner pai */
+    --background: #3f5795; /* Cor de fundo */
+    --color: #ffffff; /* Cor do texto */
+    --border-radius: 3px; /* Bordas retangulares (sem arredondamento) */
+    --padding-start: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-end: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-top: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-bottom: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --background:  #3f5795; /* Cor de fundo */
+    --color: #ffffff; /* Cor do texto */
+    --border-radius: 12px; /* Bordas arredondadas, opcional */
+   
+    //usar os tracinhos parea o comando ser ativado, o porque nao sei, mas funciona 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    width: var(--width); /* Largura do botão */
+    height: var(--height); /* Altura do botão */
+    background: var(--background); /* Cor de fundo */
+    color: var(--color); /* Cor do texto */
+    border-radius: var(--border-radius); /* Bordas arredondadas */
+    font-size: 5vw; /* Tamanho da fonte em relação à largura da viewport */
+    text-align: center; /* Centraliza o texto */
+    line-height: 1.5; /* Ajusta o espaçamento do texto */
+    margin-left: 10%;
+    margin-top: 6%;
+  
+}
+.card_1{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 35px;
+    height: 600px;
+    width: 360px;
+
+}

@@ -15,49 +15,5 @@
 
 
 
-              <!-- Conteúdo da sua página -->
-    <!-- Mostra a pergunta atual se ainda houver perguntas no quiz -->
-    <ion-card class="card_1" *ngIf=" perguntaAtual < quiz.length">
-      <img class="solzinho"  [src]="quiz[perguntaAtual].image" alt="../../assets/icon/solmaior.jpg" *ngIf="quiz[perguntaAtual].image" />
-      <ion-card-header>
-        <!-- Mostra a pergunta atual -->
-        <ion-card-title class="ringo">{{ quiz[perguntaAtual].question }}</ion-card-title>
-      </ion-card-header>
-      <!-- Lista as opções para a pergunta atual -->
-      <ion-list class="listaPerguntas">
-        <ion-item class="botoes" *ngFor="let option of quiz[perguntaAtual].options; index as i">
-          <!-- Quando uma opção é clicada, chama a função 'answer' com o índice da opção -->
-          <ion-button class="resposta" expand="full" (click)="answer(i)">{{ option }}</ion-button>
-        </ion-item>
-      </ion-list>
-    
-    </ion-card>
-
-
-    <!-- Mostra o feedback após a resposta -->
-    <ion-card class="mostrarQuestion" *ngIf="showAnswer">
-      <ion-card-content>
-        {{ correct ? quiz[perguntaAtual].feedbackCorrect : quiz[perguntaAtual].feedbackIncorrect }}
-        
-      </ion-card-content>
-      <ion-button class="proxima'" expand="full" (click)="nextQuestion()">Próxima Pergunta</ion-button>
-    </ion-card>
-
-
-    <!-- Mostra a pontuação final quando todas as perguntas foram respondidas -->
-    <ion-card class="card2" *ngIf=" perguntaAtual >= quiz.length">
-      <ion-card-header>
-        <ion-card-title>Quiz Concluído!</ion-card-title>
-      </ion-card-header>
-      <ion-card-content>
-        <p>Sua pontuação é {{ score }} de {{ quiz.length }}</p> 
-      </ion-card-content>
-    </ion-card>
-      
-    <button class="voltar"  routerLink="../"> Voltar </button> 
-    <h1 class="avisoo">Ao sair do teste, seu progresso ficará salvo. <br> Caso queira recomeçar, basta abrir e fechar o app!</h1>
-
-
-
   
   </ion-content>

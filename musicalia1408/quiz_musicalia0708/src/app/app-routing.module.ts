@@ -41,7 +41,16 @@ const routes: Routes = [
   {
     path: 'intromenor',
     loadChildren: () => import('./intromenor/intromenor.module').then( m => m.IntromenorPageModule)
-  }
+  },
+  {
+    path: 'musicdodia',
+    loadChildren: () => import('./musicdodia/musicdodia.module').then( m => m.MusicdodiaPageModule)
+  },
+  {
+    path: 'tab9',
+    loadChildren: () => import('./tab9/tab9.module').then( m => m.Tab9PageModule)
+  },
+
 ];
 @NgModule({
   imports: [
