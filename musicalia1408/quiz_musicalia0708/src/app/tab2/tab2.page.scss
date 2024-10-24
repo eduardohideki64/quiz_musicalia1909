@@ -110,3 +110,21 @@
     align-items: center;     /* Centraliza verticalmente */
 
 }
+ion-item {
+    --background: #fff;
+    --border-color: #ddd;
+    --inner-border-width: 0;
+  }
+  
+  ion-item-divider {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  ion-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
