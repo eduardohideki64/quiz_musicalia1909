@@ -87,33 +87,6 @@
     margin-left: 20px;
 }
 
-.rectangular-button {
-    --width: 80%; /* Ajuste a largura como porcentagem da largura do contêiner pai */
-    --height: 9%; /* Ajuste a altura como porcentagem da altura do contêiner pai */
-    --background: #3f5795; /* Cor de fundo */
-    --color: #ffffff; /* Cor do texto */
-    --border-radius: 3px; /* Bordas retangulares (sem arredondamento) */
-    --padding-start: 0px; /* Remove o padding padrão para largura e altura precisas */
-    --padding-end: 0px; /* Remove o padding padrão para largura e altura precisas */
-    --padding-top: 0px; /* Remove o padding padrão para largura e altura precisas */
-    --padding-bottom: 0px; /* Remove o padding padrão para largura e altura precisas */
-    --background:  #3f5795; /* Cor de fundo */
-    --color: #ffffff; /* Cor do texto */
-    --border-radius: 12px; /* Bordas arredondadas, opcional */
-    //usar os tracinhos parea o comando ser ativado, o porque nao sei, mas funciona 
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra */
-    width: var(--width); /* Largura do botão */
-    height: var(--height); /* Altura do botão */
-    background: var(--background); /* Cor de fundo */
-    color: var(--color); /* Cor do texto */
-    border-radius: var(--border-radius); /* Bordas arredondadas */
-    font-size: 5vw; /* Tamanho da fonte em relação à largura da viewport */
-    text-align: center; /* Centraliza o texto */
-    line-height: 1.5; /* Ajusta o espaçamento do texto */
-    margin-left: 10%;
-
-  
-}
 
 .rectangular-button2 {
     --width: 80%; /* Ajuste a largura como porcentagem da largura do contêiner pai */
@@ -134,7 +107,7 @@
     display: flex;
     justify-content: center; /* Centraliza o botão horizontalmente */
     align-items: center; /* Centraliza o botão verticalmente */
-    margin-top: 6%;
+    margin-top: 5%;
 
    
     //usar os tracinhos parea o comando ser ativado, o porque nao sei, mas funciona 
@@ -244,5 +217,31 @@
     margin-left: 35px;
     height: 600px;
     width: 360px;
+
+}
+.buton{
+    --width: 80%; /* Ajuste a largura como porcentagem da largura do contêiner pai */
+    --height: 9%; /* Ajuste a altura como porcentagem da altura do contêiner pai */
+    --background: #3f5795; /* Cor de fundo */
+    --color: #ffffff; /* Cor do texto */
+    --border-radius: 3px; /* Bordas retangulares (sem arredondamento) */
+    --padding-start: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-end: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-top: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --padding-bottom: 0px; /* Remove o padding padrão para largura e altura precisas */
+    --background:  #3f5795; /* Cor de fundo */
+    --color: #ffffff; /* Cor do texto */
+    --border-radius: 12px; /* Bordas arredondadas, opcional */
+    //usar os tracinhos parea o comando ser ativado, o porque nao sei, mas funciona 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    width: var(--width); /* Largura do botão */
+    height: var(--height); /* Altura do botão */
+    background: var(--background); /* Cor de fundo */
+    color: var(--color); /* Cor do texto */
+    border-radius: var(--border-radius); /* Bordas arredondadas */
+    font-size: 5vw; /* Tamanho da fonte em relação à largura da viewport */
+    text-align: center; /* Centraliza o texto */
+    line-height: 1.5; /* Ajusta o espaçamento do texto */
+    margin-left: 10%;
 
 }

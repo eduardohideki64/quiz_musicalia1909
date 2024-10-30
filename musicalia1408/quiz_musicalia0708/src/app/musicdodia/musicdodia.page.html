@@ -14,13 +14,20 @@
       </div>
       <h1 class="recep" size="large">Música do Dia</h1>
     <h3 class="textinho" >Selecione um estilo musical de acordo com sua vontade do dia!</h3>
-  
-  
-        <ion-button class="rectangular-button" routerLink="/tab4" id="frase">Sertanejo</ion-button>
-        <ion-button class="rectangular-button2" routerLink="/tab5">Rock</ion-button>
-        <ion-button class="rectangular-button3" routerLink="/tab6">MPB e Bossa Nova</ion-button>
-        <ion-button class="rectangular-button4" routerLink="/tab7">POP </ion-button>
+
+
+
+        <ion-button class="buton" (click)="sortearFrase()">Sortear Frase</ion-button>
+        <ion-button class="rectangular-button2" (click)="sortearFrase2()">Rock</ion-button>
+        <ion-button class="rectangular-button3" (click)="sortearFrase3()">MPB e Bossa Nova</ion-button>
+        <ion-button class="rectangular-button4" (click)="sortearFrase4()">POP </ion-button>
       
+
+
+        
+        <div class="frase">
+          <h2>{{ fraseSorteada || "Clique para sortear uma frase" }}</h2>
+        </div>
 
 
  
