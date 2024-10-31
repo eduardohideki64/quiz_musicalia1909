@@ -1,0 +1,112 @@
+.my-custom-background {
+    --ion-background-color: #e6e6e6; /* Substitua pela cor desejada */
+  }
+  .pato1Img {
+    position: absolute;
+    height: 20%; /* Aproximadamente 160px baseado em uma altura padrão de 800px */
+    left: 15%;   /* Aproximadamente 110px baseado em uma largura padrão de 700px */
+    top: 18.75%; /* Aproximadamente 150px baseado em uma altura padrão de 800px */
+}
+.recep {
+    font-size: 150%; /* Aproximadamente 25px baseado em uma fonte padrão de 800px */
+    top: 16.25%;  /* Aproximadamente 130px baseado em uma altura padrão de 800px */
+    left: 6%;     /* Aproximadamente 60px baseado em uma largura padrão de 1000px */
+    color: #3f5795;
+    text-align: center;
+
+}
+
+
+
+.colored-div {
+    background-color: #3f5795; /* Define a cor de fundo */
+    color: white;              /* Define a cor do texto para garantir contraste */
+    padding: 20px;            /* Adiciona espaçamento interno */
+    text-align: center;       /* Centraliza o texto dentro da div */
+    height: 90px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+.logo{
+    position: absolute;
+    height: 135px;
+    margin-top: -50px;
+}
+.musicalia{
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    margin-top: 5px;
+    place-items: center; /* Centraliza tanto horizontal quanto verticalmente */
+    
+}
+.musicalia2{
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    margin-top: -5px;
+    font-size: 14px;
+    place-items: center; /* Centraliza tanto horizontal quanto verticalmente */
+}
+.pato22Img{
+    position: absolute;
+    height: 80px;
+    margin-left: -160px;
+    margin-top: -75px;
+}
+.card_1{
+    position: absolute;
+    margin-top: 12.5%;
+    margin-left: 5%;
+    height: 65%;
+    width: 90%;
+
+}
+
+.mostrarQuestion{
+    position: absolute;
+    margin-top: 540px;
+    height: 155px;
+    width: 320px;
+    margin-left: 45px;
+}
+.card2{
+    position: absolute;
+    margin-top: 12.5%;
+    width: 58%;
+    height: 25%;
+    margin-bottom: 2.5%; /* Altere o valor conforme necessário */
+}
+.botoes{
+    margin-bottom: 5%; /* Altere o valor conforme necessário */
+}
+.listaPerguntas{
+
+    margin-top:50% ;
+
+}
+.solzinho{
+    position: absolute;
+    height: 25%;
+    margin-left: 13%;
+    margin-top:25%;
+}
+.resposta{
+    position: absolute;
+    width: 30%;
+}
+.voltar{
+    background-color: #3f5795; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    margin-top: 165%;
+    margin-left: 9%;
+
+}
+.avisoo{
+    margin-top: 7%;
+    font-size: 110%;
+    color: #3f5795;
+    margin-left: 5%;
+    align-items: center;     /* Centraliza verticalmente */
+
+}

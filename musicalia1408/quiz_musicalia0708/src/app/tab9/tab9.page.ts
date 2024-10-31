@@ -12,20 +12,20 @@ export class Tab9Page {
   showAnswer = false;
   quiz = [
     {
-      question: 'Qual acorde é esse?',
-      options: ['B', 'D', 'A', 'G'],
-      answer: 3,
-      image: '../../assets/icon/solmaior.jpg', 
+      question: 'Qual a diferença entre um acorde Maior e Menor?',
+      options: ['Uma nota, a terça', 'O uso de pestana', 'O modelo do acorde', 'A nota principal'],
+      answer: 0,
+      image: '../../assets/icon/menores.webp', 
       feedbackCorrect: 'Parabéns! Você acertou!',
-      feedbackIncorrect: 'Ops! Resposta Correta é Sol. Vá para proxima pergunta',
+      feedbackIncorrect: 'Ops! Resposta Correta é a alteração de apenas uma nota. Vá para proxima pergunta',
     },
     {
-      question: 'Qual acorde é esse?',
-      options: ['D', 'A', 'C', 'F'],
-      image: '../../assets/icon/lalala.jpg', 
+      question: 'Que acorde é este?',
+      options: ['Em', 'Am', 'Cm', 'Fm'],
+      image: '../../assets/icon/lamenor.jpg', 
       answer: 1,
       feedbackCorrect: 'Excelente! Resposta correta!',
-      feedbackIncorrect: 'Ops! Resposta Correta é Dó e SólBemol, sua quarta aumentada. Vá para proxima pergunta',
+      feedbackIncorrect: 'Ops! Resposta Correta é Am. Vá para proxima pergunta',
     },
     {
       question: 'Os acordes vistos até agora são:',
