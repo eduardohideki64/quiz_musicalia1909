@@ -245,3 +245,62 @@
     margin-left: 10%;
 
 }
+
+
+/* Container para exibir as respostas */
+.form-responses {
+    width: 80%; /* A largura da div é 80% da largura do elemento pai */
+    margin: 5% auto; /* Margin automática horizontalmente e 5% de espaço no topo/bottom */
+    padding: 3%; /* Espaçamento interno de 3% */
+    background-color: #f4f4f4; /* Fundo claro */
+    border-radius: 5%; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  }
+  
+  /* Cabeçalho da div */
+  .form-responses h2 {
+    font-size: 4%; /* Tamanho da fonte em % do elemento pai */
+    color: #333; /* Cor escura para o texto */
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 5%; /* Espaçamento abaixo do título */
+  }
+  
+  /* Estilo para cada resposta */
+  .response {
+    width: 90%; /* Cada resposta ocupa 90% da largura do container */
+    margin: 3% auto; /* Espaçamento entre as respostas */
+    padding: 2%; /* Espaçamento interno para as respostas */
+    background-color: #ffffff; /* Fundo branco para as respostas */
+    border-left: 5px solid #3f5795; /* Barra verde à esquerda */
+    font-size: 3%; /* Tamanho de fonte em % */
+    color: #333; /* Cor do texto */
+    border-radius: 3%; /* Bordas arredondadas */
+  }
+  
+  /* Estilo para a palavra-chave da pergunta */
+  .response strong {
+    color: #007BFF; /* Cor azul para as perguntas */
+    font-weight: bold; /* Negrito nas perguntas */
+  }
+  
+
+  .unlock-btn {
+    width: 100%; /* O botão ocupa toda a largura */
+    padding: 10px; /* Um pouco de padding */
+    font-size: 3.5%; /* Tamanho de fonte agradável */
+    color: white; /* Cor do texto do botão */
+    background-color: #007BFF; /* Cor de fundo azul */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de pointer para indicar interatividade */
+    margin-top: 5%; /* Espaço acima do botão */
+  }
+  
+
+  .voltar{
+    position: absolute;
+    margin-top: -17%;
+    margin-left: 75%;
+    color: #ffffff;
+    background-color: #3f5795;
+  }

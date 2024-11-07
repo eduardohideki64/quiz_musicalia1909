@@ -28,20 +28,20 @@ export class Tab9Page {
       feedbackIncorrect: 'Ops! Resposta Correta é Am. Vá para proxima pergunta',
     },
     {
-      question: 'Os acordes vistos até agora são:',
-      options: ['Menores', 'Diminutos', 'Tríades', 'Maiores',],
-      image: '../../assets/icon/acordesss.jpg', 
+      question: 'Qual dos acordes abaixo é o segundo grau de Dó Maior:',
+      options: ['B', 'Bb', 'F#', 'Dm',],
+      image: '../../assets/icon/pianinho.png', 
       answer: 3,
       feedbackCorrect: 'Excelente! Resposta correta!',
-      feedbackIncorrect: 'Ops! A resposta é "a base para os acordes". Vá para proxima pergunta',
+      feedbackIncorrect: 'Ops! A resposta é Dm. Vá para proxima pergunta',
     },
     {
-      question: 'Qual cifra está incorreta?',
-      options: ['C/Dó', 'A/Lá', 'B/Mi', 'F/Fá'],
-      image: '../../assets/icon/cifrass.png', 
+      question: 'Qual nota é mudada na mudança de F para Fm',
+      options: ['A para B', 'A para Ab', 'A para G', 'G para A'],
+      image: '../../assets/icon/famaior.webp', 
       answer: 2,
       feedbackCorrect: 'Excelente! Resposta correta!',
-      feedbackIncorrect: 'Ops! Resposta Correta é 3 menor e 5 bemol Vá para proxima pergunta',
+      feedbackIncorrect: 'Ops! A resposta é A para Ab, abaixando meio tom. Vá para proxima pergunta',
     },
     // Adicione mais perguntas com feedback personalizado
   ];
